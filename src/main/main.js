@@ -1,6 +1,6 @@
 import '../App.css';
 import './main.css';
-import main_picture from '../main_picture.jpg';
+import main_picture from '../images/main_picture.jpg';
 
 export function Main() {
   return (
