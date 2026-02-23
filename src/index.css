@@ -31,34 +31,3 @@ a {
 a:hover {
   text-decoration: none;
 }
-
-button {
-  gap: 5px;
-  font-size: 16px;
-  line-height: 1em;
-  font-family: "DM Sans", "DM Sans Placeholder", sans-serif;
-  font-weight: 400;
-  width: max-content;
-  display: flex;
-  place-items: center;
-  text-decoration: none;
-  font-style: normal;
-  letter-spacing: 0;
-  padding: 10px 16px;
-  color: rgb(249, 247, 235);
-  background-color: rgb(31, 76, 52);
-  border-radius: 10px;
-  user-select: none;
-  white-space: nowrap;
-  cursor: pointer;
-  transform: none;
-}
-
-button:hover {
-  background-color: rgba(31, 76, 52, 0.8);
-}
-
-button:active {
-  transform: translateY(-10px);
-  box-shadow: 6px 6px rgba(0, 0, 0, 0.12);
-}
