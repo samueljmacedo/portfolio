@@ -1,6 +1,7 @@
 .picture {
   height: 40vmin;
   pointer-events: none;
+  border-radius: 8px;
 }
 
 .background1 {
@@ -46,6 +47,22 @@
   overflow: visible;
   padding: 0;
   position: relative;
+}
+
+@media (max-width: 768px) {
+  .App {
+    flex-direction: column;
+    flex-flow: column;
+  }
+
+  .main {
+    position: relative;
+    width: 100% !important;
+  }
+
+  .content {
+    width: 100% !important;
+  }
 }
 
 .main {
@@ -115,6 +132,10 @@
   font-style: normal;
   line-height: 1.6;
   letter-spacing: 0;
+}
+
+.textCenter {
+  text-align: center;
 }
 
 .divider {

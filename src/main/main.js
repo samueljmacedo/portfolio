@@ -6,13 +6,17 @@ export function Main() {
   return (
     <section className="background2 main">
       <header>
-        <h1 className={"textSecondary headerText fadeIn-text"}>Samuel Macedo</h1>
+        <h1
+          className={"textSecondary headerText fadeIn-text textCenter"}
+        >
+          Samuel Macedo
+        </h1>
       </header>
       <img className="picture" src={main_picture} alt="logo" />
       <div className={"info fadeIn-text"}>
-        <h2 className={"textSecondary subHeaderText"}>Software Engineer</h2>
-        <h5 className={"textSecondary contentText"}>samueljmacedo@outlook.com</h5>
-        <div className={"links"}>
+        <h2 className={"textSecondary subHeaderText textCenter"}>Software Engineer</h2>
+        <h5 className={"textSecondary contentText textCenter"}>samueljmacedo@outlook.com</h5>
+        <div className={"links textCenter"}>
           <a
             href={"https://www.linkedin.com/in/samuel-jmacedo/"}
             target="_blank"
