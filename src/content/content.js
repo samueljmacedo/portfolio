@@ -4,71 +4,19 @@ import Timeline from "../timeline/timeline";
 import './content.css';
 import FadeInSection from "../section/fadeInSection";
 import LanguageProfiency from "../progressBar/languageProficiency";
-
-const careerEvents = [
-  {
-    date: '2021 - Present',
-    title: 'Mid-Level Full-Stack Developer',
-    description: 'Leading the frontend architecture for the company\'s flagship product. Implemented a component library used by 20+ developers and reduced bundle size by 40%.',
-    image: '/images/techcorp-office.jpg',
-    imageAlt: 'TechCorp office building',
-    link: 'https://techcorp.com',
-    type: 1,
-  },
-  {
-    date: '2019 - 2021',
-    title: 'Cybersecurity Analyst',
-    description: 'Developed and maintained multiple React applications. Collaborated with designers to implement responsive, accessible interfaces. Mentored junior developers.',
-    type: 1,
-  },
-  {
-    date: '2018 - 2019',
-    title: 'IT Intern',
-    description: 'Developed and maintained multiple React applications. Collaborated with designers to implement responsive, accessible interfaces. Mentored junior developers.',
-    type: 1,
-  },
-  {
-    date: '2016 - 2018',
-    title: 'Analytical Geometry Tutor',
-    description: 'Mentored junior developers.',
-    type: 1,
-  },
-  {
-    date: '2021 - 2021',
-    title: 'Major in Software Engineering',
-    description: 'Pontifical Catholic University of Minas Gerais - PUC-MG',
-    type: 2,
-  },
-  {
-    date: '2015 - 2020',
-    title: 'Bachelor of Science in Electronic and Telecommunications Engineering',
-    description: 'Pontifical Catholic University of Minas Gerais - PUC-MG',
-    type: 2,
-  },
-  {
-    date: '2021',
-    title: 'TOEFL iBT',
-    description: 'Score: 102/120',
-    type: 3,
-  },
-];
+import {aboutDescription, careerEvents} from "../data/data";
 
 export function Content() {
   return (
     <section className="background1 content">
       <FadeInSection>
         <Section title={"About"}>
-          <p className={"textPrimary contentText"}>
-            Enthusiastic and team-oriented Java developer with 4 years of experience. In addition, I've also been
-            working with the ReactJS and NestJS frameworks. I also have experience as a Tech Lead by facilitating sprint
-            planning and mentoring junior developers to ensure best practices.
-          </p>
-          <p className={"textPrimary contentText"}>
-            My overarching goal is to contribute meaningfully to cutting-edge projects while embracing new challenges
-            with hopes of applying my skills and strengthen my knowledge. Skilled in using effective communication with
-            a collaborative mindset to contribute and leverage the team. Furthermore, I bring self-taught skills and a
-            didactic approach towards my colleagues.
-          </p>
+          {aboutDescription.map((text, index)=> (
+            <p className={"textPrimary contentText"} key={index}>
+              {text}
+            </p>
+            ))
+          }
         </Section>
       </FadeInSection>
       <FadeInSection>
@@ -93,7 +41,7 @@ export function Content() {
         </Section>
       </FadeInSection>
       <FadeInSection>
-        <Section title={"Proficiency"}>
+        <Section title={"Language Proficiency"}>
           <LanguageProfiency />
         </Section>
       </FadeInSection>
