@@ -51,13 +51,13 @@ function Timeline({ events }) {
 }
 
 const TimelineItem = ({ event }) => {
-  const { date, title, description, image } = event;
+  const { date, title, subtitle, description, image, note, activities } = event;
 
   return (
     <div className="timeline-item">
       <div className="timeline-dot-container">
-        <div className="timeline-dot" />
         <span className="timeline-date contentText">{date}</span>
+        <div className="timeline-dot" />
       </div>
 
       <div className={`timeline-content ${image ? 'has-image' : ''}`}>
@@ -67,8 +67,25 @@ const TimelineItem = ({ event }) => {
           </div>
         )}*/}
         <div className="timeline-text">
-          <h3 className="textPrimary contentSubTitle">{title}</h3>
-          <p className="textPrimary contentText">{description}</p>
+          <div>
+            <h3 className="textPrimary contentSubTitle">{title}</h3>
+            {subtitle &&
+              <h3 className="textPrimary contentDescription">
+                {subtitle}
+              </h3>}
+            <h3 className={"textPrimary contentDescription dateDisplay"}>{date}</h3>
+          </div>
+          {activities &&
+            <div className="timeline-list">
+                <ul>
+                  {activities.map(item =>
+                    <li><p className="textPrimary contentText">{item}</p></li>
+                  )}
+                </ul>
+            </div>
+          }
+          {description && <p className="textPrimary contentText">{description}</p>}
+          {note && <p className="textPrimary contentText"><b>Key achievement: </b>{note}</p>}
         </div>
       </div>
     </div>
