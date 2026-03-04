@@ -51,7 +51,7 @@ function Timeline({ events }) {
 }
 
 const TimelineItem = ({ event }) => {
-  const { date, title, subtitle, description, image, note, activities } = event;
+  const { date, title, subtitle, description, image, note, activities, link } = event;
 
   return (
     <div className="timeline-item">
