@@ -86,6 +86,11 @@ const TimelineItem = ({ event }) => {
           }
           {description && <p className="textPrimary contentText">{description}</p>}
           {note && <p className="textPrimary contentText"><b>Key achievement: </b>{note}</p>}
+          {link && (
+            <a href={link} className="timeline-link" target="_blank" rel="noopener noreferrer">
+              Learn more →
+            </a>
+          )}
         </div>
       </div>
     </div>

@@ -161,6 +161,16 @@
     }
 }
 
+.timeline-link {
+    color:#1f4c34;
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    transition: color 0.2s ease;
+}
+
 /* Optional: alternating sides (for horizontal layouts) */
 .timeline-alternating .timeline-item:nth-child(even) {
     flex-direction: row-reverse;

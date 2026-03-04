@@ -1,0 +1,28 @@
+.tag-item {
+    border: 2px solid rgba(31, 76, 52, 0.4);;
+    width: min-content;
+    padding: 2px 10px;
+    border-radius: 20px;
+}
+
+.tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.tag-item:hover {
+    animation: tag-item-hover 0.5s ease-out forwards;
+}
+
+@keyframes tag-item-hover {
+    0% {
+        transform: none;
+        box-shadow: 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+        transform: translateY(-2px);
+        box-shadow: 4px 4px rgba(0, 0, 0, 0.12);
+    }
+}

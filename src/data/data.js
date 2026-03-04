@@ -15,7 +15,7 @@ export const careerEvents = [
     subtitle: 'Synergia',
     activities:[
       'Developed and maintained scalable full-stack applications using Java'+
-      'TypeScript, ReactJS, NestJS, Oracle, MongoDB, and RabbitMQ.\n',
+      'TypeScript, ReactJS, Angular, NestJS, Oracle, MongoDB, and RabbitMQ.\n',
       'Led an Agile development team, facilitating sprint planning, code reviews, and\n'+
       'mentoring junior developers to ensure best practices.\n',
       'Collaborated with teams to gather requirements, prioritize tasks, and deliver\n'+
@@ -72,9 +72,20 @@ export const careerEvents = [
     type: 2,
   },
   {
+    date: '2025',
+    title: 'DCC Week at UFMG',
+    description: 'Selected as a company representative for Synergia at an on-campus event held at the Federal University of Minas Gerais (UFMG). The primary objective was to present the company’s current projects and initiatives to students of the Department of Software and Science, while also gaining valuable insights into their perspectives and professional concerns.',
+    link: 'https://www.linkedin.com/posts/samuel-jmacedo_dccweek-ufmg-synergia-activity-7364327363796520961-kAFD?utm_source=share&utm_medium=member_desktop&rcm=ACoAACyzMx4B3FNTmn2aqMO8yaYZoMT50I42_L0',
+    type: 3,
+  },
+  {
     date: '2021',
     title: 'TOEFL iBT® Home Edition',
     description: 'Score: 102/120',
     type: 3,
   },
 ];
+
+export const tagsContent = ['Java','Spring', 'Python', 'NestJS', 'JavaScript', 'ReactJS', 'Typescript', 'Angular',
+  'HTML', 'CSS', 'SQL', 'PostgreSQL',  'Docker',  'Jenkins',
+  'Git', 'CI/CD', 'Agile'];

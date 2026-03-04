@@ -26,7 +26,7 @@ const FadeInSection = ({ children }) => {
   return (
     <div
       ref={domRef}
-      className={`fade-in-section ${isVisible ? "visible" : ""}`}
+      className={`fade-in-section ${isVisible ? "fade-in-right" : ""}`}
     >
       {children}
     </div>

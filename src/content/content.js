@@ -5,6 +5,7 @@ import './content.css';
 import FadeInSection from "../section/fadeInSection";
 import LanguageProfiency from "../progressBar/languageProficiency";
 import {aboutDescription, careerEvents} from "../data/data";
+import {Tags} from "../tags/tags";
 
 export function Content() {
   return (
@@ -21,6 +22,11 @@ export function Content() {
       </FadeInSection>
       <FadeInSection>
         <Timeline events={careerEvents}/>
+      </FadeInSection>
+      <FadeInSection>
+        <Section title={"Skills"}>
+          <Tags />
+        </Section>
       </FadeInSection>
       <FadeInSection>
         <Section title={"Expertise"}>

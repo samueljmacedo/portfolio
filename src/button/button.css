@@ -40,14 +40,14 @@
     }
     100% {
         transform: translateY(-2px);
-        box-shadow: 4px 4px rgba(0, 0, 0, 0.5);
+        box-shadow: 4px 4px rgba(0, 0, 0, 0.12);
     }
 }
 
 @keyframes button-inactive {
     0% {
         transform: none;
-        box-shadow: 4px 4px rgba(0, 0, 0, 0.5);
+        box-shadow: 4px 4px rgba(0, 0, 0, 0.12);
     }
     100% {
         transform: translateY(2px);

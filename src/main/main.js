@@ -13,7 +13,7 @@ export function Main() {
           Samuel Macedo
         </h1>
       </header>
-      <img className="picture" src={main_picture} alt="logo"/>
+      <img className="picture fadeIn-text" src={main_picture} alt="logo"/>
       <div className={"info fadeIn-text2"}>
         <h2 className={"textSecondary subHeaderText textCenter"}>Software Engineer</h2>
         <h5 className={"textSecondary contentText textCenter"}>samueljmacedo@outlook.com</h5>
