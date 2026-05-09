@@ -1,6 +1,6 @@
 import '../App.css';
 import './main.css';
-import main_picture from '../images/main_picture.jpg';
+import main_picture from '../images/main_picture.png';
 import keyboard_double_arrow_down from '../images/keyboard_double_arrow_down.svg';
 
 export function Main() {
