@@ -4,7 +4,18 @@
   border-radius: 8px;
 }
 
+@media (max-width: 768px) {
+  .picture {
+    height: 60vmin;
+  }
+
+}
+
 .icon {
+  width: 16px;
+}
+
+.icon-mobile {
   display: none;
   width: 32px;
   animation: icon-jump 1.5s ease-in-out 1.2s both infinite;
@@ -69,7 +80,7 @@
   .content {
     width: 100% !important;
   }
-  .icon {
+  .icon_mobile {
     display: block;
   }
 }
@@ -130,7 +141,7 @@
 }
 
 .contentSubTitle {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   letter-spacing: 1px;
 }
@@ -141,6 +152,10 @@
   font-style: normal;
   line-height: 1.6;
   letter-spacing: 0;
+}
+
+.linkText {
+  text-decoration: none;
 }
 
 .contentDescription {

@@ -2,13 +2,10 @@ import React, {useEffect, useState} from 'react';
 import '../App.css'
 import './progressBar.css'
 import {ProgressBar} from "./progressBar";
+import {SAMPLE} from "../data/info";
 
 const LanguageProfiency = () => {
-  const languages = [
-    { id: 1, name: 'Portuguese', proficiency: 100, level: 'C2', description: 'Native/Fluent' },
-    { id: 2, name: 'English', proficiency: 100, level: 'C2', description: 'Native/Fluent' },
-    { id: 3, name: 'French', proficiency: 20, level: 'A2', description: 'Elementary' },
-  ];
+  const languages = SAMPLE.languages;
 
   return (
     <div className="languages-list">

@@ -4,15 +4,16 @@ import Timeline from "../timeline/timeline";
 import './content.css';
 import FadeInSection from "../section/fadeInSection";
 import LanguageProfiency from "../progressBar/languageProficiency";
-import {aboutDescription, careerEvents} from "../data/data";
 import {Tags} from "../tags/tags";
+import {SAMPLE} from "../data/info";
+import open_in_new from "../images/open_in_new.svg";
 
 export function Content() {
   return (
     <section className="background1 content">
       <FadeInSection>
         <Section title={"About"}>
-          {aboutDescription.map((text, index)=> (
+          {SAMPLE.personal.summary.map((text, index)=> (
             <p className={"textPrimary contentText"} key={index}>
               {text}
             </p>
@@ -21,7 +22,7 @@ export function Content() {
         </Section>
       </FadeInSection>
       <FadeInSection>
-        <Timeline events={careerEvents}/>
+        <Timeline />
       </FadeInSection>
       <FadeInSection>
         <Section title={"Skills"}>
@@ -55,20 +56,22 @@ export function Content() {
         <p className={"textPrimary contentText"}>© 2026 Samuel Macedo</p>
         <div className={"links"}>
           <a
-            href={"https://www.linkedin.com/in/samuel-jmacedo/"}
+            href={SAMPLE.personal.linkedin}
             target="_blank"
-            className={"textPrimary contentText"}
+            className={"textPrimary contentText linkText externalLink"}
             rel="noreferrer"
           >
             LINKEDIN
+            <img className={'icon'} src={open_in_new} alt={"date"}/>
           </a>
           <a
-            href={"https://github.com/samueljmacedo"}
+            href={SAMPLE.personal.github}
             target="_blank"
-            className={"textPrimary contentText"}
+            className={"textPrimary contentText linkText externalLink"}
             rel="noreferrer"
           >
             GITHUB
+            <img className={'icon'} src={open_in_new} alt={"date"}/>
           </a>
         </div>
       </div>

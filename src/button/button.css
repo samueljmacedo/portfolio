@@ -12,7 +12,6 @@
     letter-spacing: 0;
     padding: 10px 16px;
     color: rgb(249, 247, 235);
-    background-color: rgb(31, 76, 52);
     border-radius: 10px;
     user-select: none;
     white-space: nowrap;
@@ -37,10 +36,12 @@
     0% {
         transform: none;
         box-shadow: 0 0 rgba(0, 0, 0, 0.5);
+        background-color: rgba(31, 76, 52, 0.8);
     }
     100% {
         transform: translateY(-2px);
         box-shadow: 4px 4px rgba(0, 0, 0, 0.12);
+        background-color: rgba(31, 76, 52, 1);
     }
 }
 
@@ -48,9 +49,11 @@
     0% {
         transform: none;
         box-shadow: 4px 4px rgba(0, 0, 0, 0.12);
+        background-color: rgba(31, 76, 52, 1);
     }
     100% {
         transform: translateY(2px);
         box-shadow: 0 0 rgba(0, 0, 0, 0.5);
+        background-color: rgba(31, 76, 52, 0.8);
     }
 }

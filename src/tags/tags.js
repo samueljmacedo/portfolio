@@ -1,10 +1,10 @@
 import './tags.css';
-import {tagsContent} from "../data/data";
+import {SAMPLE} from "../data/info";
 
 export function Tags() {
   return (
     <div className="tag-list">
-      {tagsContent.map((tag, i) => (
+      {SAMPLE.skills.map((tag, i) => (
         <div className={"tag-item"} key={i}>
           <p className={"textPrimary contentText"}><strong>{tag}</strong></p>
         </div>

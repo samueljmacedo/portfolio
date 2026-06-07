@@ -9,5 +9,11 @@
 .links {
     display: flex;
     flex-direction: row;
-    gap:8px;
+    gap: 16px;
+}
+
+.externalLink {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
 }
