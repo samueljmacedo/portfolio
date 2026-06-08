@@ -6,6 +6,9 @@ import {useState} from "react";
 import {SAMPLE} from "../data/info";
 import calendar from '../images/calendar.svg';
 import location from '../images/location.svg';
+import school from '../images/school.svg';
+import business from '../images/business.svg';
+import trophy from '../images/trophy.svg';
 
 function Timeline() {
   const [type, setType] = useState('experience');
@@ -30,16 +33,19 @@ function Timeline() {
           title={'Professional'}
           active={type === 'experience'}
           onClick={handleProfessional}
+          icon={business}
         />
         <Button
           title={'Academic'}
           active={type === 'education'}
           onClick={handleAcademic}
+          icon={school}
         />
         <Button
           title={'Others'}
           active={type === 'other'}
           onClick={handleOthers}
+          icon={trophy}
         />
       </div>
       <div className="timeline-container">
