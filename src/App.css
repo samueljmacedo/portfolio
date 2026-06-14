@@ -80,7 +80,8 @@
   .content {
     width: 100% !important;
   }
-  .icon_mobile {
+
+  .icon-mobile {
     display: block;
   }
 }
