@@ -8,13 +8,9 @@ export const SAMPLE = {
     github: "https://github.com/samueljmacedo",
     website: "https://samueljmacedo.github.io/portfolio/",
     summary: [
-      'Enthusiastic and team-oriented Java developer with 4 years of experience. In addition, I\'ve also been\n' +
-      'working with the ReactJS and NestJS frameworks. I also have experience as a Tech Lead by facilitating sprint\n' +
-      'planning and mentoring junior developers to ensure best practices.',
-      'My overarching goal is to contribute meaningfully to cutting-edge projects while embracing new challenges\n' +
-      'with hopes of applying my skills and strengthen my knowledge. Skilled in using effective communication with\n' +
-      'a collaborative mindset to contribute and leverage the team. Furthermore, I bring self-taught skills and a\n' +
-      'didactic approach towards my colleagues.'
+      'Full-stack developer with hands-on experience building and maintaining scalable applications using Java, Spring Boot, TypeScript, ReactJS, and NestJS, backed by a prior background in network and endpoint security that strengthened my problem-solving and systems-thinking skills.',
+      'At Synergia, I\'ve grown into a Tech Lead role: facilitating sprint planning, leading code reviews, and mentoring more than 15 junior developers and interns, while working with cross-functional teams of 5 to 15 people across Java, Oracle, and MongoDB-based systems.',
+      'I hold a degree in Engineering with a specialization in Software Engineering from PUC Minas, and I\'m a self-taught, didactic professional. I enjoy translating complex technical concepts into something the whole team can act on.'
     ]
   },
   experience: [
@@ -25,16 +21,11 @@ export const SAMPLE = {
       end: "Present",
       location: "Remote",
       bullets: [
-        'Developed and maintained scalable full-stack applications using Java'+
-        'TypeScript, ReactJS, Angular, NestJS, Oracle, MongoDB, and RabbitMQ.\n',
-        'Led an Agile development team, facilitating sprint planning, code reviews, and\n'+
-        'mentoring junior developers to ensure best practices.\n',
-        'Collaborated with teams to gather requirements, prioritize tasks, and deliver\n'+
-        'high-quality software solutions on time.\n',
-        'Utilized Jira for project tracking and Git for version control, ensuring efficient\n'+
-        'collaboration and continuous integration.\n',
-        'Made key technical decisions, improved system architecture, and resolved ' +
-        'complex issues to enhance application performance and reliability.\n',
+        'Built and maintained scalable full-stack applications using Java, TypeScript, ReactJS, NestJS, Oracle, and MongoDB, supporting thousands of users/transactions in production.',
+        'Drove key architecture decisions, improving application response time, observability, user experience and increasing system reliability.',
+        'Led an Agile development team through sprint planning and code reviews, facilitating development and cutting rework.',
+        'Mentored 15+ junior developers and interns, accelerating team ramp-up time and raising overall code quality.',
+        'Partnered with cross-functional teams of 5 to 15 people to gather requirements and prioritize work, delivering hundreds of features on schedule.'
       ],
       note: 'Rapidly strengthened Java development skills within a '+
         'year, earning trust from management to the point of mentoring and supporting '+
@@ -46,11 +37,12 @@ export const SAMPLE = {
       start: "Abr 2019",
       end: "Sep 2021",
       location: "Belo Horizonte, MG",
-      bullets: ['Provided remote technical support on firewalls for customers',
-        'Configured, deployed and tested new Fortinet firewalls for customers.',
-        'Deployment of endpoint security software Cylance on new machines based on customer business rules. \n',
-        'Created Wi-Fi heat-map reports based on customer environments that used Aruba access points, as well as their deployment',
-      ],
+      bullets: [
+        'Deployed Fortinet firewalls across 5 new environments, configuring interfaces, NAT rules, and security profiles to reduce the network\'s attack surface.',
+        'Rolled out Cylance endpoint security software in 2 corporate environments, tailoring it to business rules;',
+        'Provided technical support for firewalls, antivirus, switches, and access points, maintaining 99% network infrastructure uptime for clients.',
+        'Configured and deployed Aruba access points, producing Wi-Fi heatmap reports that improved signal coverage across 90% of mapped areas.'
+      ]
     },
     {
       company: "Altasnet",
@@ -59,7 +51,9 @@ export const SAMPLE = {
       end: "Abr 2019",
       location: "Belo Horizonte, MG",
       bullets: [
-        'Worked at customer support, helping customers with technical issues on firewalls, switches and access points',
+        'Delivered first-level technical support for firewalls, antivirus, switches, and access points, resolving 20 tickets per month.',
+        'Supported network infrastructure maintenance for corporate clients, helping reduce average incident response time;',
+        'Built the technical foundation in networking and security that led to a promotion to Network & Security Analyst in under a year.'
       ]
     },
     {
@@ -69,8 +63,9 @@ export const SAMPLE = {
       end: "Abr 2018",
       location: "Belo Horizonte, MG",
       bullets: [
-        'Tutored other students of the university, helping them with homework and assignments, as well as teaching Analytical Geometry.',
-        'Helped math professors at their day-to-day activities',
+        'Helped +100 students resolve questions in Analytical Geometry, improving comprehension of complex course concepts.',
+        'Supported professors in delivering classes and practical activities;',
+        'Developed teaching and technical communication skills later applied to mentoring junior developers throughout my career.',
       ]
     }
   ],
