@@ -7,6 +7,7 @@ import LanguageProfiency from "../progressBar/languageProficiency";
 import {Tags} from "../tags/tags";
 import {SAMPLE} from "../data/info";
 import open_in_new from "../images/open_in_new.svg";
+import RecommendationsCarousel from "../recommendations/recommentations";
 
 export function Content() {
   return (
@@ -52,6 +53,11 @@ export function Content() {
           <LanguageProfiency />
         </Section>
       </FadeInSection>
+        <FadeInSection>
+            <Section title={"Testimonials"}>
+                <RecommendationsCarousel />
+            </Section>
+        </FadeInSection>
       <div className={"footer"}>
         <p className={"textPrimary contentText"}>© 2026 Samuel Macedo</p>
         <div className={"links"}>
