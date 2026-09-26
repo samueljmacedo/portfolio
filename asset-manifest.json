@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6e741028.css",
-    "main.js": "/portfolio/static/js/main.4b3f9afa.js",
-    "static/js/488.b149560f.chunk.js": "/portfolio/static/js/488.b149560f.chunk.js",
+    "main.css": "/portfolio/static/css/main.016ce6c1.css",
+    "main.js": "/portfolio/static/js/main.89f28d9f.js",
+    "static/js/488.7f194009.chunk.js": "/portfolio/static/js/488.7f194009.chunk.js",
     "static/media/main_picture.png": "/portfolio/static/media/main_picture.ad83a018049cacbaff19.png",
     "static/media/dm-sans-latin-400-normal.woff": "/portfolio/static/media/dm-sans-latin-400-normal.2c8c7be0365aecdaf260.woff",
     "static/media/dm-sans-latin-400-normal.woff2": "/portfolio/static/media/dm-sans-latin-400-normal.97def203da337e26d827.woff2",
@@ -17,12 +17,14 @@
     "static/media/open_in_new.svg": "/portfolio/static/media/open_in_new.0e85505217d3d5e85dd711e7687252cc.svg",
     "static/media/open_in_new_secondary.svg": "/portfolio/static/media/open_in_new_secondary.8ff1e82eb77e94b967c34d3b29599394.svg",
     "static/media/keyboard_double_arrow_down.svg": "/portfolio/static/media/keyboard_double_arrow_down.e24f3e18917595da88467a1eec4c8138.svg",
-    "main.6e741028.css.map": "/portfolio/static/css/main.6e741028.css.map",
-    "main.4b3f9afa.js.map": "/portfolio/static/js/main.4b3f9afa.js.map",
-    "488.b149560f.chunk.js.map": "/portfolio/static/js/488.b149560f.chunk.js.map"
+    "static/media/chevron_left.svg": "/portfolio/static/media/chevron_left.42f2858d2bf2b7b6374dcc9c705617c3.svg",
+    "static/media/chevron_right.svg": "/portfolio/static/media/chevron_right.f0f5ec7b492f4060b0daf5c3fc28f787.svg",
+    "main.016ce6c1.css.map": "/portfolio/static/css/main.016ce6c1.css.map",
+    "main.89f28d9f.js.map": "/portfolio/static/js/main.89f28d9f.js.map",
+    "488.7f194009.chunk.js.map": "/portfolio/static/js/488.7f194009.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e741028.css",
-    "static/js/main.4b3f9afa.js"
+    "static/css/main.016ce6c1.css",
+    "static/js/main.89f28d9f.js"
   ]
 }
