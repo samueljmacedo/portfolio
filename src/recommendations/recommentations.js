@@ -53,7 +53,6 @@ const recommendations = [
 
 export default function RecommendationsCarousel() {
     const [current, setCurrent] = useState(0);
-    const [showFullDescription, setFullDescription] = useState(false);
 
     const previous = () => {
         setCurrent(
@@ -66,16 +65,7 @@ export default function RecommendationsCarousel() {
         setCurrent((current + 1) % recommendations.length);
     };
 
-    const showFullDescriptionHandler = () => {
-        setFullDescription(!showFullDescription);
-    };
-
-
     const recommendation = recommendations[current];
-
-    const description = showFullDescription
-        ? recommendation.text
-        : recommendation.text.slice(0, 200);
 
     return (
         <section className="recommendations">

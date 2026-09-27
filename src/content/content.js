@@ -8,7 +8,6 @@ import {Tags} from "../tags/tags";
 import {SAMPLE} from "../data/info";
 import open_in_new from "../images/open_in_new.svg";
 import RecommendationsCarousel from "../recommendations/recommentations";
-import Projects from "../projects/projects";
 
 export function Content() {
   return (
