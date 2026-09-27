@@ -53,6 +53,7 @@ const recommendations = [
 
 export default function RecommendationsCarousel() {
     const [current, setCurrent] = useState(0);
+    const [showFullDescription, setFullDescription] = useState(false);
 
     const previous = () => {
         setCurrent(
@@ -65,15 +66,29 @@ export default function RecommendationsCarousel() {
         setCurrent((current + 1) % recommendations.length);
     };
 
+    const showFullDescriptionHandler = () => {
+        setFullDescription(!showFullDescription);
+    };
+
+
     const recommendation = recommendations[current];
+
+    const description = showFullDescription
+        ? recommendation.text
+        : recommendation.text.slice(0, 200);
 
     return (
         <section className="recommendations">
             <div className="recommendation-card">
                 <div className="quote-mark">“</div>
-                <p className="textPrimary">
-                    {recommendation.text}
-                </p>
+                <div className="recommendation-text">
+                    <p className="textPrimary">
+                        {recommendation.text}
+                    </p>
+                </div>
+                {/*<button onClick={showFullDescriptionHandler}>
+                    Read {showFullDescription ? "Less" : "More"}
+                </button>*/}
 
                 <div className="recommendation-author">
                     <div className="author-info">

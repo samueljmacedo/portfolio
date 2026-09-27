@@ -8,6 +8,7 @@ import {Tags} from "../tags/tags";
 import {SAMPLE} from "../data/info";
 import open_in_new from "../images/open_in_new.svg";
 import RecommendationsCarousel from "../recommendations/recommentations";
+import Projects from "../projects/projects";
 
 export function Content() {
   return (
@@ -25,12 +26,17 @@ export function Content() {
       <FadeInSection>
         <Timeline />
       </FadeInSection>
+      {/*<FadeInSection>
+        <Section title={"Featured projects"}>
+            <Projects />
+        </Section>
+      </FadeInSection>*/}
       <FadeInSection>
         <Section title={"Skills"}>
           <Tags />
         </Section>
       </FadeInSection>
-      <FadeInSection>
+      {/*<FadeInSection>
         <Section title={"Expertise"}>
           <p className={"textPrimary contentText"}>
             <strong>Programming languages: </strong>
@@ -47,7 +53,7 @@ export function Content() {
             Usage of Design Patterns, SOLID principles and clean code,
           </p>
         </Section>
-      </FadeInSection>
+      </FadeInSection>*/}
       <FadeInSection>
         <Section title={"Language Proficiency"}>
           <LanguageProfiency />

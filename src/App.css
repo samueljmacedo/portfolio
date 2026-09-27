@@ -6,6 +6,7 @@
   /* Backgrounds */
   --color-background: #f9f7eb; /* Warm Ivory */
   --color-surface: #ffffff;
+  --color-background-card: rgba(255, 255, 255, 0.35);
   --color-surface-alt: #dce5d8; /*Pale sage*/
 
   /* Divider */

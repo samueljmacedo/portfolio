@@ -3,7 +3,7 @@
     width: 100%;
     max-width: 850px;
     margin: 0 auto;
-    /*padding: 24px 24px;*/
+    padding: 0px 24px;
     box-sizing: border-box;
     color: var(--color-text);
     font-family: inherit;
@@ -38,7 +38,7 @@
 }*/
 
 .recommendation-card {
-    background: var(--color-background);
+    background: var(--color-background-card);
     border: 1px solid rgba(0, 0, 0, 0.08);
     border-radius: 12px;
     padding: 24px;
@@ -57,11 +57,7 @@
 }
 
 .recommendation-text {
-    font-size: 18px;
-    line-height: 1.9;
-    color: #454556;
-    margin: 12px 0 36px;
-    flex: 1;
+    /*overflow: scroll;*/
 }
 
 .recommendation-author {
@@ -115,8 +111,8 @@
     width: 32px;
     height: 32px;
     border-radius: 50%;
-    border: 1px solid #1f4c34;
-    background: #f9f7eb;
+    border: 1px solid var(--color-primary);
+    background: var(--color-background-card);
     /*color: var(--text);*/
     font-size: 20px;
     cursor: pointer;
@@ -144,7 +140,7 @@
     background: rgba(0, 0, 0, 0.1);
     padding: 0;
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: all 0.5s ease;
 }
 
 .carousel-dot.active {
@@ -163,7 +159,7 @@
 
 @media (max-width: 600px) {
     .recommendations {
-        padding: 50px 16px;
+        padding: 0 16px;
     }
 
     .recommendation-card {
