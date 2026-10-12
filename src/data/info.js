@@ -3,7 +3,7 @@ export const SAMPLE = {
     name: "Samuel Macedo",
     title: "Software Engineer",
     email: "samueljmacedo@outlook.com",
-    phone: "+55 31 9999 9999",
+    phone: "+55 31 97307 9918",
     linkedin: "https://www.linkedin.com/in/samuel-jmacedo/",
     github: "https://github.com/samueljmacedo",
     website: "https://samueljmacedo.github.io/portfolio/",

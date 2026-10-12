@@ -4,39 +4,48 @@ import "./projects.css";
 const projects = [
     {
         id: 1,
-        title: "Project Management Dashboard",
-        category: "Professional",
+        title: "Government Procurement Platform",
         description:
-            "A full-stack application to help teams manage tasks, track progress, and collaborate more effectively.",
+            "A full-stack procurement platform built with Java and React, designed to streamline government bidding and purchasing processes. It brought structure, transparency, and efficiency to a complex workflow where every detail matters.",
         contribution:
             "Designed the architecture, developed the frontend and backend, and implemented authentication and CI/CD.",
-        technologies: ["React", "TypeScript", "Node.js", "PostgreSQL"],
+        technologies: ["React", "Java"],
         image: "/images/project-dashboard.png",
         liveUrl: "",
         githubUrl: "",
     },
     {
         id: 2,
-        title: "Personal Finance Tracker",
-        category: "Personal",
+        title: "Refinery Damage Dashboard",
         description:
-            "A web application that helps users visualise spending, manage budgets, and understand their financial habits.",
+            "A lightweight data dashboard built with NestJS, TypeScript, and React, aggregating information about damage across refinery pipelines. It turned scattered inspection data into a clear, centralized view for faster analysis and decision-making.",
         contribution:
             "Built the application from scratch, including data visualisation, responsive UI, and data persistence.",
-        technologies: ["React", "TypeScript", "Firebase"],
+        technologies: ["React", "TypeScript", "NestJS"],
         image: "/images/finance-tracker.png",
         liveUrl: "",
         githubUrl: "",
     },
     {
         id: 3,
-        title: "Developer CLI Tool",
-        category: "Open Source",
+        title: "3D Construction & Point Cloud Analysis",
         description:
-            "A command-line tool designed to automate repetitive development tasks and improve developer productivity.",
+            "A 3D visualization platform built with Java, Angular, and Three.js, allowing users to upload construction models and point-cloud data and compare planned structures with real-world measurements. It made the gap between what was designed and what was built visible at a glance.",
         contribution:
             "Created the CLI architecture, implemented commands, and wrote documentation and tests.",
-        technologies: ["Node.js", "TypeScript", "Jest"],
+        technologies: ["Java", "TypeScript", "Angular", "ThreeJS"],
+        image: "/images/cli-tool.png",
+        liveUrl: "",
+        githubUrl: "",
+    },
+    {
+        id: 4,
+        title: "Water Access & Cistern Management",
+        description:
+            "A government platform built with Java, React, and TypeScript to help communities in vulnerable and remote areas gain access to clean water. The system supported the planning and management of cistern construction in villages and schools, turning technology into a practical tool for making an essential resource more accessible.",
+        contribution:
+            "Created the CLI architecture, implemented commands, and wrote documentation and tests.",
+        technologies: ["Java", "ReactJS", "Typescript"],
         image: "/images/cli-tool.png",
         liveUrl: "",
         githubUrl: "",
@@ -46,19 +55,7 @@ const projects = [
 function ProjectCard({ project }) {
     return (
         <article className="project-card">
-            <div className="project-image">
-                <img
-                    src={project.image}
-                    alt={`${project.title} screenshot`}
-                    loading="lazy"
-                />
-            </div>
-
             <div className="project-content">
-        <span className="project-category">
-          {project.category}
-        </span>
-
                 <h3>{project.title}</h3>
 
                 <p className="project-description">
@@ -71,23 +68,12 @@ function ProjectCard({ project }) {
                     ))}
                 </div>
 
-                <div className="project-contribution">
+                {/*<div className="project-contribution">
                     <h4>My contribution</h4>
                     <p>{project.contribution}</p>
                 </div>
 
                 <div className="project-links">
-                    {project.liveUrl && (
-                        <a
-                            href={project.liveUrl}
-                            target="_blank"
-                            rel="noreferrer"
-                            className="project-link primary"
-                        >
-                            Live demo ↗
-                        </a>
-                    )}
-
                     {project.githubUrl && (
                         <a
                             href={project.githubUrl}
@@ -98,7 +84,7 @@ function ProjectCard({ project }) {
                             GitHub ↗
                         </a>
                     )}
-                </div>
+                </div>*/}
             </div>
         </article>
     );
@@ -107,20 +93,6 @@ function ProjectCard({ project }) {
 export default function Projects() {
     return (
         <section className="featured-projects" id="projects">
-            {/*<div className="projects-header">
-            <span className="section-eyebrow">
-              WHAT I'VE BUILT
-            </span>
-
-                <h2>Featured projects</h2>
-
-                <p>
-                    A selection of projects that showcase my
-                    engineering experience, problem-solving
-                    approach, and passion for building useful software.
-                </p>
-            </div>*/}
-
             <div className="projects-grid">
                 {projects.map((project) => (
                     <ProjectCard
