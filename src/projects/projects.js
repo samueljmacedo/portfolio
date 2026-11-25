@@ -7,8 +7,7 @@ const projects = [
         title: "Government Procurement Platform",
         description:
             "A full-stack procurement platform built with Java and React, designed to streamline government bidding and purchasing processes. It brought structure, transparency, and efficiency to a complex workflow where every detail matters.",
-        contribution:
-            "Designed the architecture, developed the frontend and backend, and implemented authentication and CI/CD.",
+        contribution: "",
         technologies: ["React", "Java"],
         image: "/images/project-dashboard.png",
         liveUrl: "",
@@ -19,8 +18,7 @@ const projects = [
         title: "Refinery Damage Dashboard",
         description:
             "A lightweight data dashboard built with NestJS, TypeScript, and React, aggregating information about damage across refinery pipelines. It turned scattered inspection data into a clear, centralized view for faster analysis and decision-making.",
-        contribution:
-            "Built the application from scratch, including data visualisation, responsive UI, and data persistence.",
+        contribution: "",
         technologies: ["React", "TypeScript", "NestJS"],
         image: "/images/finance-tracker.png",
         liveUrl: "",
@@ -31,8 +29,7 @@ const projects = [
         title: "3D Construction & Point Cloud Analysis",
         description:
             "A 3D visualization platform built with Java, Angular, and Three.js, allowing users to upload construction models and point-cloud data and compare planned structures with real-world measurements. It made the gap between what was designed and what was built visible at a glance.",
-        contribution:
-            "Created the CLI architecture, implemented commands, and wrote documentation and tests.",
+        contribution: "",
         technologies: ["Java", "TypeScript", "Angular", "ThreeJS"],
         image: "/images/cli-tool.png",
         liveUrl: "",
@@ -43,8 +40,7 @@ const projects = [
         title: "Water Access & Cistern Management",
         description:
             "A government platform built with Java, React, and TypeScript to help communities in vulnerable and remote areas gain access to clean water. The system supported the planning and management of cistern construction in villages and schools, turning technology into a practical tool for making an essential resource more accessible.",
-        contribution:
-            "Created the CLI architecture, implemented commands, and wrote documentation and tests.",
+        contribution: "",
         technologies: ["Java", "ReactJS", "Typescript"],
         image: "/images/cli-tool.png",
         liveUrl: "",
